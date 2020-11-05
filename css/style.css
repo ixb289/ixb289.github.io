@@ -1,0 +1,46 @@
+/*Israel */
+body{
+color: rgb(0, 0, 0);
+font-size: 14px;
+font-family: "Helvetica", "Arial", sans-serif;
+background-color: rgb(216, 217, 217);
+}
+
+
+/* headers */
+h1 {
+color: rgb(123, 175, 222);
+font-size: 72px;
+font-family: "Hebrew Latino"
+}
+
+h2 {
+color: rgb(123, 175, 222);
+font-size: 32px;
+font-family: Hebrew Latino
+}
+
+h3 {
+color: rgb(123, 175, 222);
+font-size: 28px;
+font-family: Hebrew Latino
+}
+
+/*links */
+a, a:link /*default link state */
+{
+color: rgb(0, 134, 255);
+}
+	a:visited
+{
+color: rgb(123, 175, 222); /*Israel flag blue */
+}
+
+a:hover {
+text-decoration: underline;
+color: #222
+}
+
+a:active {
+color: rgb(123, 175, 222); /*Israel flag blue */
+}
