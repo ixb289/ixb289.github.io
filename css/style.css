@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Big+Shoulders+Stencil+Display:wght@900&family=Saira+Stencil+One&display=swap');
+
+
 /*Israel */
 
 
@@ -5,9 +10,7 @@ body{
 
 color: rgb(0, 0, 0); /*black*/
 font-size: 18px;
-=======
-color: rgb(0, 0, 0);
-font-size: 14px;
+
 
 font-family: "Helvetica", "Arial", sans-serif;
 background-color: rgb(216, 217, 217);
@@ -20,20 +23,20 @@ max-width: 960px;
 /* headers */
 h1 {
 color: rgb(123, 175, 222);
-font-size: 72px;
-font-family: "Hebrew Latino"
+font-size: 102px;
+font-family: "Big Shoulders Stencil Display", cursive;
 }
 
 h2 {
 color: rgb(123, 175, 222);
-font-size: 32px;
-font-family: Hebrew Latino
+font-size: 52px;
+font-family: "Allerta Stencil", cursive;
 }
 
 h3 {
 color: rgb(123, 175, 222);
-font-size: 28px;
-font-family: Hebrew Latino
+font-size: 32px;
+font-family: "Allerta Stencil", cursive;
 }
 
 /*links */
@@ -93,6 +96,13 @@ margin: 0;
 }
 
 figure{
+border: 0;
+padding: 10px;
+margin: 0;
+}
+
+table{
+
 border: 0;
 padding: 10px;
 margin: 0;
