@@ -3,13 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Big+Shoulders+Stencil+Display:wght@900&family=Saira+Stencil+One&display=swap');
 
 /*Israel */
+
+
 body{
 color: rgb(0, 0, 0); /*black*/
-font-size: 14px;
+font-size: 18px;
 font-family: "Helvetica", "Arial", sans-serif;
 background-color: rgb(216, 217, 217);
 }
 
+main{
+max-width: 960px;
+}
 
 /* headers */
 h1 {
@@ -50,4 +55,37 @@ color: #222 /*a dark gray*/
 
 a:active {
 color: rgb(123, 175, 222); /*Israel flag blue */
+}
+
+/*grid*/
+.grid {
+display: grid;
+grid-template-columns: 400px 400px 400px 400px;
+grid-gap: 50px;
+}
+
+/* box model */
+h1{
+padding: 15px;
+margin: 0px;
+
+}
+
+h2{
+padding: 15px;
+margin: 0px;
+
+
+}
+
+h3{
+padding: 15px;
+margin: 0px;
+
+}
+
+p{
+padding: 15px;
+margin: 0px;
+
 }
