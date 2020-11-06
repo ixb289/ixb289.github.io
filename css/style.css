@@ -66,36 +66,31 @@ grid-gap: 50px;
 
 /* box model */
 h1{
-border: 0;
-padding: 10px;
+padding: 15px;
 margin: 0;
 
 }
 
 h2{
-border: 0;
-padding: 10px;
+padding: 15px;
 margin: 0;
 
 
 }
 
 h3{
-border: 0;
-padding: 10px;
+padding: 15px;
 margin: 0;
 
 }
 
 p{
-border: 0;
-padding: 10px;
+padding: 15px;
 margin: 0;
 
 }
 
 figure{
-border: 0;
-padding: 10px;
+padding: 15px;
 margin: 0;
 }
