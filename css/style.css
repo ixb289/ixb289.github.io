@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Big+Shoulders+Stencil+Display:wght@900&family=Saira+Stencil+One&display=swap');
+
 /*Israel */
 body{
-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0); /*black*/
 font-size: 14px;
 font-family: "Helvetica", "Arial", sans-serif;
 background-color: rgb(216, 217, 217);
@@ -9,27 +13,30 @@ background-color: rgb(216, 217, 217);
 
 /* headers */
 h1 {
-color: rgb(123, 175, 222);
-font-size: 72px;
-font-family: "Hebrew Latino"
+color: rgb(123, 175, 222); /*Israel flag blue */
+font-size: 102px;
+font-family: 'Big Shoulders Stencil Display', cursive;
+font-weight: 900;
 }
-
+/*hebrew latino font was not free. I had to choose another*/
 h2 {
-color: rgb(123, 175, 222);
-font-size: 32px;
-font-family: Hebrew Latino
-}
+	color: rgb(123, 175, 222); /*Israel flag blue */
+	font-size: 62px;
+	font-family: 'Big Shoulders Stencil Display', cursive;
+	font-weight: 900;
+	}
 
 h3 {
-color: rgb(123, 175, 222);
-font-size: 28px;
-font-family: Hebrew Latino
+color: rgb(123, 175, 222); /*Israel flag blue */
+font-size: 32px;
+font-family: 'Allerta Stencil', cursive; /*recommended pairing for stencil-type fonts such as the type used in h1*/
+font-weight: 900;
 }
 
 /*links */
 a, a:link /*default link state */
 {
-color: rgb(0, 134, 255);
+color: rgb(0, 134, 255); /*another shade of blue - not Israel's flag hue*/
 }
 	a:visited
 {
@@ -38,7 +45,7 @@ color: rgb(123, 175, 222); /*Israel flag blue */
 
 a:hover {
 text-decoration: underline;
-color: #222
+color: #222 /*a dark gray*/
 }
 
 a:active {
