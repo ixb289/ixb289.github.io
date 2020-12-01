@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+
+/*My Project */
+
+/*Nav Bar*/
+nav ul{
+padding-left: 0;
+list-style-type: none;
+
+}
+
+nav li {
+display: inline-block;
+margin: 40px
+
+}
+
+nav a {
+padding: 10px;
+}
+
+nav a hover {
+background-color: rgb(59, 107,106);
+}
+
+body{
+
+color: rgb(42, 44, 44); /*dark gray*/
+font-size: 18px;
+
+
+font-family: 'Montserrat', sans-serif;
+background-color: rgb(200, 203, 203);
+}
+
+main{
+max-width: 960px;
+}
+
+/* headers */
+h1, h2, h3 {
+color: rgb(59, 107,106); /*dark olive green*/
+font-family: "Major Mono Display", "monospace", sans-serif;
+padding: 10px;
+margin: 0;
+}
+
+h1 {font-size: 102px;
+
+}
+h2 {
+
+font-size: 52px;
+
+
+}
+
+h3 {
+
+font-size: 32px;
+
+}
+
+/*links */
+a, a:link /*default link state */
+{
+	color: rgb(59, 107,106); /*dark olive green*/
+
+}
+	a:visited
+{
+color: rgb(21, 87, 184); /*blue */
+}
+
+a:hover {
+text-decoration: underline;
+color: #222
+}
+
+a:active {
+color: rgb(123, 175, 222); /* light blue */
+}
+
+/*iframe*/
+
+
+/*grid*/
+.grid {
+display: grid;
+grid-template-columns: 350px 350px 350px 350px;
+grid-gap: 50px;
+}
+
+/* box model */
+h1, h2, h3{
+border: 20px;
+padding: 10px;
+margin: 0;
+
+}
+
+
+p{
+border: 0;
+padding: 10px;
+margin: 0;
+
+}
+
+figure{
+border: 20px;
+padding: 10px;
+margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+	padding: 10px;
+	margin: 0;
+}
