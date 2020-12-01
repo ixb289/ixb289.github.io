@@ -22,7 +22,7 @@ nav a {
 padding: 10px;
 }
 
-nav a: hover {
+nav a hover {
 background-color: rgb(59, 107,106);
 }
 
@@ -96,7 +96,7 @@ grid-gap: 50px;
 
 /* box model */
 h1, h2, h3{
-border: 20;
+border: 20px;
 padding: 10px;
 margin: 0;
 
@@ -111,7 +111,7 @@ margin: 0;
 }
 
 figure{
-border: 20;
+border: 20px;
 padding: 10px;
 margin: 0;
 }
